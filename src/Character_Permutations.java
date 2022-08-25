@@ -1,6 +1,5 @@
 
 public class Character_Permutations {
-
     static void printPermutn(String str, String ans) {
         if (str.length() == 0) {
             System.out.print(ans + " ");
@@ -14,7 +13,7 @@ public class Character_Permutations {
         }
     }
     public static void main(String[] args) {
-        String s = "abcd";
+        String s = "abc";
         printPermutn(s, "");
     }
 }

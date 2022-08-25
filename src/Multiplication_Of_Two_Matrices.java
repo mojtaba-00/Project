@@ -2,16 +2,15 @@ import java.util.Scanner;
 
 public class Multiplication_Of_Two_Matrices {
     public static void main(String[] args) {
-        int row1, col1, row2, col2;
         Scanner readre = new Scanner(System.in);
         System.out.print("Enter number of rows in first matrix:");
-        row1 = readre.nextInt();
+        int row1 = readre.nextInt();
         System.out.print("Enter number of columns in first matrix:");
-        col1 = readre.nextInt();
+        int col1 = readre.nextInt();
         System.out.print("Enter number of rows in second matrix:");
-        row2 = readre.nextInt();
+        int row2 = readre.nextInt();
         System.out.print("Enter number of columns in second matrix:");
-        col2 = readre.nextInt();
+        int col2 = readre.nextInt();
         if (col1 != row2) {
             System.out.println("Matrix multiplication is not possible");
         } else {

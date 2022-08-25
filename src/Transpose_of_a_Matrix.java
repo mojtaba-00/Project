@@ -1,4 +1,4 @@
-import java.sql.Array;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -28,7 +28,7 @@ public class Transpose_of_a_Matrix {
                 matrix2[j][i] = matrix1[i][j];
             }
         }
-        for (int [] item:matrix1 ){
+        for (int [] item:matrix2 ){
             System.out.println(Arrays.toString(item));
         }
     }
